@@ -60,7 +60,7 @@ queue=2
 
 [module.nl]
 # set to yes in case you are interested in the mac address  of the remote (only works for lan)
-lookup_ethernet_addr=no
+lookup_ethernet_addr=yes
 
 [module.python]
 imports=dionaea.log,dionaea.services,dionaea.ihandlers
