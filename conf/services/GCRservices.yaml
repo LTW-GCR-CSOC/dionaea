@@ -68,11 +68,11 @@
         # full_name: nginx/1.1
 - name: memcache
 - name: mirror
-- name: mongo
+#- name: mongo
 - name: mqtt
 - name: mssql
-- name: pptp
-  config:
+#- name: pptp
+#  config:
 - name: sip
   config:
     udp_ports:
