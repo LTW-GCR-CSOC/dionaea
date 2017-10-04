@@ -18,7 +18,7 @@ listen.mode=getifaddrs
 
 [logging]
 default.filename=@LOCALESTATEDIR@/dionaea/dionaea.log
-default.levels=info,warning,error,critical
+default.levels=info,warning,error,critical,debug
 default.domains=*
 
 errors.filename=@LOCALESTATEDIR@/dionaea/dionaea-errors.log
