@@ -42,7 +42,7 @@
       - 443
     max_request_size: 32768 # maximum size in kbytes of the request (32MB)
     global_headers:
-      - ["Server", "ICS"]
+      - ["Server", "nginx"]
     headers:
       - filename_pattern: ".*\\.php"
         headers:
