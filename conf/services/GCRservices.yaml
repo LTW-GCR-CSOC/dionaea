@@ -21,6 +21,9 @@
       # http or Atlassian JIRA applications, commonly used port for HTTP testing
       - port: 8080
         protocol: tcp
+      # Multicast DNS - UDP
+      - port: 5353
+        protocol: udp
 
 
 
